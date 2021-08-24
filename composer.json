@@ -1,12 +1,12 @@
 {
-    "name": "contao/hello-world-bundle",
+    "name": "acme/hello-world-bundle",
     "type": "contao-bundle",
     "description": "Hello World Bundle for custom Contao 4 bundles",
     "homepage": "https://contao.org",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Martin Palmer",
+            "name": "Acme",
             "homepage": "https://github.com/CommodoreVC20"
         },
         {
@@ -31,7 +31,7 @@
         "symfony/phpunit-bridge": "^4.4 || ^5.1"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Acme\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
@@ -44,12 +44,7 @@
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
-    },
-    "scripts": {
-        "cs-fixer": [
-            "vendor/bin/ecs check src/ tests/ --fix --ansi"
-        ]
+        "issues": "https://github.com/CommodoreVC20/contao-hello-world-bundle/issues",
+        "source": "https://github.com/CommodoreVC20/contao-hello-world-bundle"
     }
 }
